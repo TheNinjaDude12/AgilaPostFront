@@ -182,3 +182,9 @@
     border-right-color: var(--border);
   }
 }
+
+/** Newly added **/
+.main-content {
+  margin-left: 250px; /** to allot space for the sidebar **/
+  min-height: 100vh;
+}
