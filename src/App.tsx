@@ -14,12 +14,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <StrictMode>
-      <div>
-      <Navbar />
-        <main className="main-content">
+     
             <RouterProvider router = {router}/>
-          </main>
-        </div>  
+  
     
       
     </StrictMode>

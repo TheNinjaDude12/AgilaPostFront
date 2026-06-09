@@ -14,9 +14,11 @@ import Navbar from "../components/Navbar";
 function Scheduling() {
   return (
       
-      
-                <div className="scheduling-page">
-                  <Navbar/>
+      <div>
+      <Navbar/>
+        <main className="main-content">
+               <div className="scheduling-page">
+                
         
 
       <div className="scheduling-tabs">
@@ -213,6 +215,9 @@ function Scheduling() {
       </div>
 
     </div>
+          </main>
+        </div>  
+   
         
         
 
