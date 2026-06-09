@@ -10,10 +10,14 @@ import { IoArrowForward } from "react-icons/io5";
 import { FaPlus } from "react-icons/fa";
 import { MdOutlineFileUpload } from "react-icons/md";
 import emptyPfp from "../assets/emptyPfp.jpg";
-
+import Navbar from "../components/Navbar";
 function Scheduling() {
   return (
-    <div className="scheduling-page">
+      
+      
+                <div className="scheduling-page">
+                  <Navbar/>
+        
 
       <div className="scheduling-tabs">
         <div className="tab">Queue</div>
@@ -209,6 +213,9 @@ function Scheduling() {
       </div>
 
     </div>
+        
+        
+
   );
 }
 

@@ -1,23 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 import Navbar from "./components/Navbar";
 import Scheduling from "./pages/Scheduling";
-
-
+import PrivacySection from './pages/PrivacySection';
+import NotFoundPage from './pages/NotFound';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { StrictMode } from 'react';
+const router = createBrowserRouter([
+  {path:"/", element:<Scheduling></Scheduling>},
+  {path:"/privacy", element:<PrivacySection/>},
+  {path:"*", element:<NotFoundPage/>}
+])
+//Routing 
 function App() {
   return (
-    <div>
+    <StrictMode>
+      <div>
       <Navbar />
+        <main className="main-content">
+            <RouterProvider router = {router}/>
+          </main>
+        </div>  
+    
       
-      <main className="main-content">
-        <Scheduling />
-      </main>
-    </div>
+    </StrictMode>
+    
   );
 }
 
-export default App
+export default App;
 
