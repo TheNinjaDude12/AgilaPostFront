@@ -154,19 +154,23 @@ const PRIVACY_SECTIONS = [
 
 function PrivacySection() {
   return (
-    <div className="privacy-container">
-      {PRIVACY_SECTIONS.map((section) => (
-        <div key={section.id} className="privacy-section">
-          {section.title && <h2>{section.title}</h2>}
-          {section.subTitle && <h4>{section.subTitle}</h4>}
-          {section.paragraphs.map((paragraph, index) => (
-            <p key={index}>
-              {paragraph}
-              <br />
-            </p>
-          ))}
-        </div>
-      ))}
+    <div>
+      <div id="header">
+      </div>
+      <div className="privacy-container">
+        {PRIVACY_SECTIONS.map((section) => (
+          <div key={section.id} className="privacy-section">
+            {section.title && <h2>{section.title}</h2>}
+            {section.subTitle && <h4>{section.subTitle}</h4>}
+            {section.paragraphs.map((paragraph, index) => (
+              <p key={index}>
+                {paragraph}
+                <br />
+              </p>
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
