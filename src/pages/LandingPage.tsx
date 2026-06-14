@@ -150,6 +150,7 @@ export default function LandingPage() {
         <span className="lp-logo-text">AgilaPost</span>
         <div className="lp-footer-links">
           <a href="/privacy">Privacy Policy</a>
+          <a href="/terms">Terms of Service</a>
           <a href="mailto:help@agilapostapp.io">Contact</a>
         </div>
         <span className="lp-footer-copy">© {new Date().getFullYear()} AgilaPost Inc.</span>
