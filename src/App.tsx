@@ -9,7 +9,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { StrictMode } from 'react';
 const router = createBrowserRouter([
   {path: "/", element: <LandingPage />},
-  {path:"/", element:<Scheduling></Scheduling>},
+  {path:"/dashboard", element:<Scheduling></Scheduling>},
   {path:"/privacy", element:<PrivacySection/>},
   {path:"/terms", element:<TermsOfService/>},
   {path:"*", element:<NotFoundPage/>}

@@ -38,6 +38,7 @@ export default function LandingPage() {
           <a href="#pricing">Pricing</a>
           <a href="#faq">FAQs</a>
           <a href="/privacy">Privacy</a>
+          <a href="/terms">Terms Of Service</a>
         </div>
         <div className="lp-nav-cta">
           <a href="/app" className="lp-signin">Sign In</a>
@@ -66,7 +67,7 @@ export default function LandingPage() {
           </p>
 
           <div className="lp-hero-actions">
-            <Link to="/app" className="lp-btn-primary">Get Started Now</Link>
+            <Link to="/dashboard" className="lp-btn-primary">Get Started Now</Link>
             <a href="#features" className="lp-btn-outline">Learn more</a>
           </div>
         </div>
