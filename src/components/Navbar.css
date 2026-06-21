@@ -6,7 +6,7 @@
 }
 
 a {
-    color: rgb(41, 41, 41);
+    color: rgb(30, 27, 46);
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ a {
 }
 
 .nav-name {
-    color: rgb(48, 123, 209);
+    color: rgb(109, 40, 217);
     font-weight: bold;
     font-size: 40px;
 
@@ -40,7 +40,7 @@ a {
 .navbar h2 {
     display: flex;
     background: white;
-    color: rgb(41, 41, 41);
+    color: rgb(30, 27, 46);
     font-size: 15px;
     padding: 12px 20px;
 }
@@ -59,7 +59,7 @@ a {
 }
 
 .navPostButton {
-    background: rgb(48, 123, 209);
+    background: linear-gradient(135deg, rgb(109, 40, 217), rgb(59, 130, 246));
     font-size: 15px;
     padding: 15px 20px;
     border-radius: 15px;
@@ -67,11 +67,12 @@ a {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    color: white;
 }
 
 .settings-icon {
     margin-top: auto;
-    color: rgb(41, 41, 41);
+    color: rgb(30, 27, 46);
     padding: 20px;
     font-size: 25px;
     cursor: pointer;

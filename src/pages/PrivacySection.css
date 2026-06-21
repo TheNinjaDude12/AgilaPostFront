@@ -1,23 +1,23 @@
 body {
-    background-color: white;
+    background-color: #fafaf9;
 }
 h2 {
     margin-top: 20px;
-    color: black;
+    color: #1e1b2e;
     text-align: left;
     margin-left: 20px;
 }
 
 h4 {
     margin-top: 10px;
-    color: black;
+    color: #1e1b2e;
     text-align: left;
     margin-left: 20px;
 
 }
 
 p {
-    color: black;
+    color: #1e1b2e;
     text-align: left;
     margin-left: 20px;
     margin-top: 10px;
@@ -26,5 +26,5 @@ p {
   
     height: 40px;
     border: 2px;
-    background-color: aqua;
+    background: linear-gradient(135deg, #6d28d9, #3b82f6);
 }
