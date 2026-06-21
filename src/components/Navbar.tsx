@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 import { VscAccount } from "react-icons/vsc";
 import { AiOutlineSchedule } from "react-icons/ai";
 import { MdOutlineAnalytics } from "react-icons/md";
@@ -11,6 +12,8 @@ import agilaIcon from "../assets/agilapost-icon.svg";
 // settings icon was placed for design and as reference to the original OneUp
 
 function Navbar() {
+  const navigate = useNavigate();
+
   return (
     <nav className ="navbar">
         <a href="#" className="nav-name">
@@ -26,7 +29,7 @@ function Navbar() {
             <li><a href="#"><IoMailOutline /> Social Inbox</a></li>
         </ul>
 
-        <button type="button" className="navPostButton"><FaRegEdit size={20} /> Create a post</button>
+        <button type="button" className="navPostButton" onClick={() => navigate("/create-post")}><FaRegEdit size={20} /> Create a post</button>
     
         <div className="settings-icon"> 
           <CiSettings />

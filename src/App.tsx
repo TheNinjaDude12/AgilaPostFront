@@ -5,11 +5,13 @@ import Scheduling from "./pages/Scheduling";
 import PrivacySection from './pages/PrivacySection';
 import TermsOfService from './pages/TermsOfService';
 import NotFoundPage from './pages/NotFound';
+import CreatePost from './pages/CreatePost';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { StrictMode } from 'react';
 const router = createBrowserRouter([
   {path: "/", element: <LandingPage />},
   {path:"/dashboard", element:<Scheduling></Scheduling>},
+  {path:"/create-post", element:<CreatePost/>},
   {path:"/privacy", element:<PrivacySection/>},
   {path:"/terms", element:<TermsOfService/>},
   {path:"*", element:<NotFoundPage/>}
@@ -18,15 +20,10 @@ const router = createBrowserRouter([
 function App() {
   return (
     <StrictMode>
-     
             <RouterProvider router = {router}/>
-  
-    
-      
     </StrictMode>
     
   );
 }
 
 export default App;
-

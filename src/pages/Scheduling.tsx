@@ -1,4 +1,5 @@
 import "./Scheduling.css";
+import { useNavigate } from "react-router-dom";
 import { FaRegLightbulb } from "react-icons/fa";
 import { PiPencilSimpleLine } from "react-icons/pi";
 import { LuClock } from "react-icons/lu";
@@ -12,6 +13,7 @@ import { MdOutlineFileUpload } from "react-icons/md";
 import emptyPfp from "../assets/emptyPfp.jpg";
 import Navbar from "../components/Navbar";
 function Scheduling() {
+  const navigate = useNavigate();
   return (
       
       <div>
@@ -100,7 +102,7 @@ function Scheduling() {
             </div>
 
             <div className="empty-buttons">
-              <div className="left-post-btn">
+              <div className="left-post-btn" onClick={() => navigate("/create-post")}>
                 <FaPlus className="middle-post-btn" size={12}/>
                 Create a post
               </div>
@@ -120,7 +122,7 @@ function Scheduling() {
 
               <div className="card-list">
 
-                <div className="feature">
+                <div className="feature" onClick={() => navigate("/create-post")} style={{ cursor: "pointer" }}>
                   <div className="feature-container">
                     <div className="feature-post-icon"><PiPencilSimpleLine size={25} /></div>
 
