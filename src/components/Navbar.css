@@ -34,7 +34,14 @@ a {
 
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
     width: 100%;
+}
+
+.nav-logo-icon {
+    height: 36px;
+    width: 36px;
 }
 
 .navbar h2 {

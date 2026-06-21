@@ -26,6 +26,17 @@
   z-index: 100;
 }
 
+.lp-nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lp-logo-icon {
+  height: 28px;
+  width: 28px;
+}
+
 .lp-logo-text {
   font-size: 22px;
   font-weight: 800;
@@ -412,6 +423,12 @@
   background: #fafaf9;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+.lp-footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .lp-footer-links {

@@ -5,6 +5,7 @@ import { MdOutlineAnalytics } from "react-icons/md";
 import { IoMailOutline } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
 import { FaRegEdit } from "react-icons/fa";
+import agilaIcon from "../assets/agilapost-icon.svg";
 
 // npm install react-icons for navbar icons
 // settings icon was placed for design and as reference to the original OneUp
@@ -12,7 +13,10 @@ import { FaRegEdit } from "react-icons/fa";
 function Navbar() {
   return (
     <nav className ="navbar">
-        <a href="#" className="nav-name">AgilaPost</a>
+        <a href="#" className="nav-name">
+          <img src={agilaIcon} alt="" className="nav-logo-icon" />
+          AgilaPost
+        </a>
         
         <h2>Overview</h2>
         <ul>

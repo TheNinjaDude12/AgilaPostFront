@@ -1,5 +1,6 @@
 import "./LandingPage.css";
 import { Link } from "react-router-dom";
+import agilaIcon from "../assets/agilapost-icon.svg";
 
 const FEATURES = [
   {
@@ -31,6 +32,7 @@ export default function LandingPage() {
       {/* NAV */}
       <nav className="lp-nav">
         <div className="lp-nav-logo">
+          <img src={agilaIcon} alt="" className="lp-logo-icon" />
           <span className="lp-logo-text">AgilaPost</span>
         </div>
         <div className="lp-nav-links">
@@ -148,7 +150,10 @@ export default function LandingPage() {
 
       {/* FOOTER */}
       <footer className="lp-footer">
-        <span className="lp-logo-text">AgilaPost</span>
+        <div className="lp-footer-logo">
+          <img src={agilaIcon} alt="" className="lp-logo-icon" />
+          <span className="lp-logo-text">AgilaPost</span>
+        </div>
         <div className="lp-footer-links">
           <a href="/privacy">Privacy Policy</a>
           <a href="/terms">Terms of Service</a>

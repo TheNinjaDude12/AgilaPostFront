@@ -1,0 +1,44 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eagleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="55%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(32,32)">
+    <!-- head/beak -->
+    <path d="M0,-23 L4.5,-13 L0,-9 L-4.5,-13 Z" fill="url(#eagleGrad)"/>
+
+    <!-- left wing -->
+    <path d="M0,-13
+             L-15,-10
+             L-29,-3
+             L-33,2
+             L-25,1
+             L-29,7
+             L-19,5
+             L-22,10
+             L-11,6
+             L0,0
+             Z"
+          fill="url(#eagleGrad)"/>
+    <!-- right wing mirrored -->
+    <path d="M0,-13
+             L15,-10
+             L29,-3
+             L33,2
+             L25,1
+             L29,7
+             L19,5
+             L22,10
+             L11,6
+             L0,0
+             Z"
+          fill="url(#eagleGrad)"/>
+
+    <!-- tail -->
+    <path d="M-4,0 L0,4 L4,0 L4,14 L0,20 L-4,14 Z" fill="url(#eagleGrad)"/>
+  </g>
+</svg>

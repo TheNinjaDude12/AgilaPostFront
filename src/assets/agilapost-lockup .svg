@@ -1,0 +1,38 @@
+<svg width="220" height="56" viewBox="0 0 220 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eagleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="55%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(28,28)">
+    <path d="M0,-20 L4,-11 L0,-8 L-4,-11 Z" fill="url(#eagleGrad)"/>
+    <path d="M0,-11
+             L-13,-9
+             L-25,-3
+             L-29,2
+             L-22,1
+             L-25,6
+             L-16,4
+             L-19,9
+             L-9,5
+             L0,0
+             Z" fill="url(#eagleGrad)"/>
+    <path d="M0,-11
+             L13,-9
+             L25,-3
+             L29,2
+             L22,1
+             L25,6
+             L16,4
+             L19,9
+             L9,5
+             L0,0
+             Z" fill="url(#eagleGrad)"/>
+    <path d="M-3.5,0 L0,3.5 L3.5,0 L3.5,12 L0,17 L-3.5,12 Z" fill="url(#eagleGrad)"/>
+  </g>
+
+  <text x="58" y="36" font-family="system-ui, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800" fill="#6d28d9" letter-spacing="-0.5">AgilaPost</text>
+</svg>

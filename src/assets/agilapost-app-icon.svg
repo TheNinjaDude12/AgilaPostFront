@@ -1,0 +1,42 @@
+<svg width="512" height="512" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eagleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="55%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="200" height="200" rx="40" fill="#18141f"/>
+
+  <g transform="translate(100,102)">
+    <path d="M0,-46 L9,-26 L0,-18 L-9,-26 Z" fill="url(#eagleGrad)"/>
+
+    <path d="M0,-26
+             L-30,-20
+             L-58,-6
+             L-66,4
+             L-50,2
+             L-58,14
+             L-38,10
+             L-44,20
+             L-22,12
+             L0,0
+             Z"
+          fill="url(#eagleGrad)"/>
+    <path d="M0,-26
+             L30,-20
+             L58,-6
+             L66,4
+             L50,2
+             L58,14
+             L38,10
+             L44,20
+             L22,12
+             L0,0
+             Z"
+          fill="url(#eagleGrad)"/>
+
+    <path d="M-8,0 L0,8 L8,0 L8,28 L0,40 L-8,28 Z" fill="url(#eagleGrad)"/>
+  </g>
+</svg>
