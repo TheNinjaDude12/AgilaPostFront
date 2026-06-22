@@ -43,8 +43,8 @@ export default function LandingPage() {
           <a href="/terms">Terms Of Service</a>
         </div>
         <div className="lp-nav-cta">
-          <a href="/app" className="lp-signin">Sign In</a>
-          <Link to="/app" className="lp-btn-signup">Sign Up</Link>
+          <Link to="/signin" className="lp-signin">Sign In</Link>
+          <Link to="/signup" className="lp-btn-signup">Sign Up</Link>
         </div>
       </nav>
 
@@ -69,7 +69,7 @@ export default function LandingPage() {
           </p>
 
           <div className="lp-hero-actions">
-            <Link to="/dashboard" className="lp-btn-primary">Get Started Now</Link>
+            <Link to="/signup" className="lp-btn-primary">Get Started Now</Link>
             <a href="#features" className="lp-btn-outline">Learn more</a>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function LandingPage() {
       <section className="lp-cta-banner">
         <h2>Ready to reclaim your time?</h2>
         <p>Join teams already using AgilaPost to stay consistent without the busywork.</p>
-        <Link to="/app" className="lp-btn-primary">Get started — it's free</Link>
+        <Link to="/signup" className="lp-btn-primary">Get started — it's free</Link>
       </section>
 
       {/* FOOTER */}
